@@ -1,0 +1,12 @@
+
+CREATE TABLE `td_graph` (
+  `category` VARCHAR(200) NOT NULL,
+  `key` VARCHAR(200) NOT NULL,
+  `date_time` TIMESTAMP NOT NULL,
+  `value` DOUBLE NOT NULL
+);
+
+INSERT INTO td_graph VALUES ('TEST', 'A', '2019-07-23 21:00:00.000', 1.0);
+INSERT INTO td_graph VALUES ('TEST', 'A', '2019-07-23 21:00:01.000', 1.0);
+INSERT INTO td_graph VALUES ('TEST', 'A', '2019-07-23 21:00:02.000', 0.0);
+INSERT INTO td_graph VALUES ('TEST', 'A', '2019-07-23 21:00:03.000', 1.0);
